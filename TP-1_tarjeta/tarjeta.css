@@ -1,11 +1,33 @@
-@import url('C:\Users\ayust\OneDrive\Escritorio\colegio\clase chaza (lunes)\Miportafolio\assets\css\estilosgenerales.css');
+@import url('../assets/css/estilosgenerales.css');
 
 body{
     width: 100%;
+    height: 500px;
 }
 
 .tarjeta{
+width: 350px;
+height: 500px;
+background-color: white;    
+}
 
+.cabecera{
+width: 100%;
+height: 55%;
+background-color: violet;
+}
+.fotoperfil{
 
-    
+height: 150px;
+width: 150px;
+background-color: white;
+border-radius: 50%; /* para hacer un circulo*/
+
+}
+
+.datos{
+
+width: 100%;
+height: 45%;
+background-color: lightblue;
 }
