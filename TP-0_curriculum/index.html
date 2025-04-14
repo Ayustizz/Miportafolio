@@ -13,38 +13,39 @@
     body {
       font-family: Arial, sans-serif;
       display: flex;
-      background-color: #f0f0f0;
+      background-color: white;
     }
-    .left {
-      width: 65%;
+    .izquierda {
+      width: 60%;
       background-color: white;
       padding: 40px;
     }
-    .right {
-      width: 100%;
-      background-color: #0f2a41;
-      color: #fff;
-      padding: 40px 20px;
+    .barra_derecha {
+      width: 80%;
+      background-color: #062a49;
+      color: #ccc;
+      border-bottom: 4px solid #ccc;
+      padding: 40px 20px ;
     }
-    .profile-pic {
+    .Foto_Perfil {
       width: 120px;
       height: 120px;
       border-radius: 50%;
       background-color: #ccc;
       margin: 0 auto 20px;
     }
-    .name {
+    .Nombre {
       text-align: center;
       color: #00b2b2;
       font-size: 24px;
       font-weight: bold;
     }
-    .profession {
+    .Profesion {
       text-align: center;
       font-size: 18px;
       margin-bottom: 20px;
     }
-    .section-title {
+    .seccion_perfil {
       color: #00b2b2;
       font-size: 18px;
       margin-top: 30px;
@@ -52,78 +53,77 @@
       font-weight: bold;
       border-bottom: 2px solid #ccc;
     }
-    .section-text {
+    .acerca_de {
       font-size: 14px;
       line-height: 1.6;
     }
-    .contact-info, .skills, .languages {
-      margin-bottom: 30px;
+    .informacion, .skills, .idiomas {
+      margin-bottom: 10px;
     }
-    .contact-info p, .skills p, .languages p {
+    .acerca_de p, .experiencias p, .educacion p {
       margin: 8px 0;
     }
-    .sidebar-title {
+    .barra_derecha {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 10px;
       color: #00b2b2;
     }
-    .experience-item {
+    .experiencias {
       margin-bottom: 15px;
     }
-    .experience-item h4 {
+    .experiencias h4 {
       margin-bottom: 5px;
       font-size: 15px;
       color: #00b2b2;
     }
-    .experience-item p {
+    .experiencias {
       font-size: 13px;
     }
   </style>
 </head>
 <body>
-  <div class="left">
-    <div class="profile-pic"></div>
-    <div class="name">NOMBRE APELLIDO</div>
-    <div class="profession">PROFESIÓN</div>
+  <div class="izquierda">
+    <div class="Foto_Perfil"></div>
+    <div class="Nombre">AROON YUSTIZ</div>
+    <div class="Profesion">Tecnico informatico</div>
 
-    <div class="section-title">Perfil</div>
-    <p class="section-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, massa et laoreet finibus...
+    <div class="seccion_perfil">Perfil</div>
+    <p class="acerca_de">
+      Soy una persona amable con los demas , comprometido con el trabajo, hosnesto, capaz de acoplarse y tener la disciplina para cumplir una rutina , busco mejorar y ganar mas experiencia para mi carrera laboral.
     </p>
 
-    <div class="section-title">Experiencia</div>
-    <div class="experience-item">
-      <h4>Nombre del Puesto - Empresa</h4>
-      <p>Descripción breve de las actividades realizadas.</p>
+    <div class="experiencias">Experiencia</div>
+    <div class="experiencia">
+      <h4>Atencion al cliente - Il bocconcino</h4>
+      <p>Mi trabajo era la venta de los productos de la panaderia, me desarrolle entre Dic 2022 - Mar 2023.</p>
     </div>
 
     <div class="section-title">Educación</div>
-    <div class="experience-item">
-      <h4>Título - Institución</h4>
+    <div class="Educación">
+      <h4>tecnico informatico - secundaria tecnica n°3</h4>
       <p>Periodo, logros o materias destacadas.</p>
     </div>
   </div>
 
-  <div class="right">
-    <div class="sidebar-title">Contacto</div>
-    <div class="contact-info">
-      <p>📧 correo@ejemplo.com</p>
-      <p>📱 +00 123 456 789</p>
-      <p>🌐 www.tusitio.com</p>
+  <div class="barra_derecha">
+    <div class="contacto">Contacto</div>
+    <div class="informacion">
+      <p>📧 ayustiz0@gmail.com</p>
+      <p>📱 +54 11-5736-8246</p>
+      <p>🌐 www.aroonyustiz.com</p>
     </div>
 
-    <div class="sidebar-title">Habilidades</div>
+    <div class="barra_derecha">Habilidades</div>
     <div class="skills">
-      <p>✔️ HTML, CSS, JS</p>
-      <p>✔️ Python, Django</p>
-      <p>✔️ Diseño UI/UX</p>
+      <p> HTML, CSS, JS</p>
+      <p> Python, Django</p>
     </div>
 
-    <div class="sidebar-title">Idiomas</div>
-    <div class="languages">
-      <p>🇪🇸 Español - Nativo</p>
-      <p>🇬🇧 Inglés - Intermedio</p>
+    <div class="barra_derecha">Idiomas</div>
+    <div class="idiomas">
+      <p> Español - Nativo</p>
+      <p> Inglés - Intermedio</p>
     </div>
   </div>
 </body>
